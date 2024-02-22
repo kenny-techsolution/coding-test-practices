@@ -1,4 +1,4 @@
-from test_util import run_tests
+from testing.test_util import run_tests
 
 
 def is_palindrome_hashtable(str):
