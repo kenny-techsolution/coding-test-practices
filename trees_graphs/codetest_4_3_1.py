@@ -27,6 +27,7 @@ def create_level_linked_list_helper(root, level_list, level):
   create_level_linked_list_helper(root.right, level_list, level + 1)
 
 
+# test out with a binary tree
 nums = [1, 2, 3, 4, 5, 7, 8, 9, 10, 12, 14, 16, 40, 45]
 tree = BinaryTree(create_min_height_bst(nums))
 level_list = create_level_linked_list(tree.root)

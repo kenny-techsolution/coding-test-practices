@@ -10,6 +10,9 @@ class LinkedList:
   def __init__(self):
     self.head = None
 
+  def size(self):
+    return self.head
+
   def append(self, value):
     """Append a new node with the given value (any object) to the end of the list."""
     if not self.head:
@@ -27,3 +30,10 @@ class LinkedList:
       print(repr(current.value), end=" -> ")
       current = current.next
     print("None")  # End of the list
+
+  def __iter__(self):
+    """Make the linked list iterable."""
+    current = self.head
+    while current:
+      yield current.value
+      current = current.next
