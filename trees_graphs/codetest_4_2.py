@@ -6,7 +6,7 @@ def create_min_height_bst(nums: list):
 
 
 def min_height_bst_builder(nums: list, start, end):
-  print(nums[start], nums[end])
+  # print(nums[start], nums[end])
   if start > end:
     return None
   # find the middle index.
@@ -15,7 +15,7 @@ def min_height_bst_builder(nums: list, start, end):
   # ex. [a, b, c] -> 2/2 = 1     -> b
   # ex. [a, b, c, d] -> 3/2 = 1  -> b
   mid_index = (start + end) // 2
-  print(nums[mid_index])
+  # print(nums[mid_index])
   # create a node for the mid
   root = TreeNode(nums[mid_index])
   # create the left and right child recursively

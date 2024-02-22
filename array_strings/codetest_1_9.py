@@ -1,4 +1,4 @@
-from test_util import run_tests
+from ..test_util import run_tests
 
 
 def isRotation(str1, str2):
