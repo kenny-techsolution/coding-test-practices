@@ -1,5 +1,5 @@
-from graph import Graph, Node, State
-from sample_graph_a import graph
+from .graph import Graph, Node, State
+from .sample_graph_a import graph
 from collections import deque
 
 

@@ -1,4 +1,4 @@
-from binary_tree import BinaryTree, TreeNode
+from .binary_tree import BinaryTree, TreeNode
 
 
 def create_min_height_bst(nums: list):

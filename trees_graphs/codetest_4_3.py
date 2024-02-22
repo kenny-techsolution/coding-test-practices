@@ -1,6 +1,6 @@
-from linked_list import ListNode, LinkedList
-from binary_tree import BinaryTree, TreeNode
-from codetest_4_2 import create_min_height_bst
+from .linked_list import LinkedList
+from .binary_tree import BinaryTree
+from .codetest_4_2 import create_min_height_bst
 
 
 def create_level_linked_list(root):
