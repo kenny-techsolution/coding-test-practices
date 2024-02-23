@@ -1,4 +1,4 @@
-from .binary_tree import TreeNode
+from sample_btree_a import node_10, node_11, node_9
 
 
 def in_order_successor(node):
@@ -22,33 +22,6 @@ def find_left_most_child(node):
     node = node.left
   return node
 
-
-node_15 = TreeNode(15)
-node_10 = TreeNode(10)
-node_17 = TreeNode(17)
-node_8 = TreeNode(8)
-node_12 = TreeNode(12)
-node_7 = TreeNode(7)
-node_9 = TreeNode(9)
-node_12 = TreeNode(12)
-node_11 = TreeNode(11)
-node_13 = TreeNode(13)
-
-node_15.left = node_10
-node_15.right = node_17
-node_10.left = node_8
-node_10.right = node_12
-node_10.parent = node_15
-node_8.left = node_7
-node_8.right = node_9
-node_8.parent = node_10
-node_7.parent = node_8
-node_9.parent = node_8
-node_12.left = node_11
-node_12.right = node_13
-node_12.parent = node_10
-node_11.parent = node_12
-node_13.parent = node_12
 
 #test case 1
 successor = in_order_successor(node_10)
