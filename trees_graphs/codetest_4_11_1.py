@@ -68,5 +68,5 @@ tree.insert_in_order(17)
 
 tree.print()
 
-random = tree.get_random_node()
-print(random.value if random else None)
+random_node = tree.get_random_node()
+print(random_node.value if random_node else None)
