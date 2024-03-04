@@ -1,6 +1,5 @@
 from .sample_btree_a import node_15, node_9, node_12
 
-
 # to see if p and q are on the same substree.
 # if they are, then move down and see which subtree cover p and q, until they diverge.
 def common_ancestor(root, p, q):
